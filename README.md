@@ -1,4 +1,4 @@
-# 🏆 Internation CodeFest'26 — 40-Day Preparation Roadmap
+# 🏆 International CodeFest'26 — 40-Day Preparation Roadmap
 
 > **Goal:** Go from C++ experience (no CP background) to solving 3–4 problems in an ICPC-style contest in 40 days, with 2 hours of daily practice.
 
