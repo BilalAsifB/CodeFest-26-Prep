@@ -1,0 +1,2 @@
+- Don't use endl, use '\n' instead.
+- Minor variances in runtimes like +-10ms is due to I/O noise, if time complexity of solutions is same.
