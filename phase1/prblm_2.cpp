@@ -4,8 +4,10 @@
 using namespace std;
 #define ll long long
 #define vl vector<ll>
+#define vi vector<int>
 #define pb push_back
 #define all(x) (x).begin(), (x).end()
+#define sz(x) (int)(x).size()
 #define F first
 #define S second
 const ll MOD = 1e9+7;

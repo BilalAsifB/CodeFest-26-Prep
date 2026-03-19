@@ -1,4 +1,4 @@
-// Problem: https://codeforces.com/problemset/problem/4/A
+// Problem: https://codeforces.com/problemset/problem/231/A
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -16,10 +16,12 @@ const ll INF = 1e18;
 int main(){
     ios::sync_with_stdio(false);
     cin.tie(0);
-    ll w;
-    cin >> w;
-    cout << ((w % 2 == 0 && w > 2) ? "YES" : "NO");
+    int n, n1, n2, n3, count = 0;
+    cin >> n;
+    for(int i=0; i<n; ++i){
+	    cin >> n1 >> n2 >> n3;
+	    if (n1+n2+n3>=2) count++;
+    }
+    cout << count;
     return 0;
 }
-
-// Any even number greater than 2 can be expressed as the sum of two even numbers (2 + (w-2)).
